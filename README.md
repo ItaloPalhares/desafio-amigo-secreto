@@ -1,6 +1,6 @@
 # Sortear Amigo Secreto
 
-![Static Badge](https://img.shields.io/badge/Javascript-yellow) ![Static Badge](https://img.shields.io/badge/HTML-orange) ![Static Badge](https://img.shields.io/badge/CSS-blue)
+![Static Badge](https://img.shields.io/badge/Javascript-yellow) ![Static Badge](https://img.shields.io/badge/HTML-orange) ![Static Badge](https://img.shields.io/badge/CSS-purple)
 
 >Esse projeto é a conclusão do desafio *_Jogo do amigo secreto_* da Alura e do programa Oracle ONE - Oracle Next Education.
 
