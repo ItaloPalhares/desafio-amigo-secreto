@@ -19,10 +19,7 @@
 
 ## Resultado final
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
-
-| Deploy | link |
+| Deploy | Link |
 | ------ | ------ |
-| vercel | link do vercel |
+| vercel | [Sortear Amigo Secreto](https://desafio-amigo-secreto-topaz.vercel.app/) |
 
