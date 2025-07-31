@@ -1,6 +1,6 @@
 # Sortear Amigo Secreto
 
-![Static Badge](https://img.shields.io/badge/Javascript-yellow) ![Static Badge](https://img.shields.io/badge/HTML-orange) ![Static Badge](https://img.shields.io/badge/CSS-blue)
+![Static Badge](https://img.shields.io/badge/Javascript-yellow) ![Static Badge](https://img.shields.io/badge/HTML-orange) ![Static Badge](https://img.shields.io/badge/CSS-purple)
 
 >Esse projeto é a conclusão do desafio *_Jogo do amigo secreto_* da Alura e do programa Oracle ONE - Oracle Next Education.
 
@@ -19,10 +19,7 @@
 
 ## Resultado final
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
-
-| Deploy | link |
+| Deploy | Link |
 | ------ | ------ |
-| vercel | link do vercel |
+| vercel | [Sortear Amigo Secreto](https://desafio-amigo-secreto-topaz.vercel.app/) |
 
