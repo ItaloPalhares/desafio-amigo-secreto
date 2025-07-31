@@ -2,7 +2,7 @@ let listaDeAmigos = [];
 
 //Ação do botão Adicionar Amigo
 function adicionarAmigo(){
-    let nomeDoAmigo = document.querySelector('input').value
+    let nomeDoAmigo = document.querySelector('input').value.toLowerCase().trim();
 
     //checa se o nome está presente na lista ou está vazio
     if(listaDeAmigos.includes(nomeDoAmigo) || nomeDoAmigo == ''){
