@@ -49,6 +49,27 @@ body {
     gap: 8px;
     
 }
+
+.bannerTitulo{
+    max-width: 20%;
+    height: auto;
+    display: block;
+}
+
+.bannerMeninoGamer{
+    max-width: 20%;
+    height: auto;
+    display: block;
+}
+
+.participar{
+    max-width: 60%;
+    height: auto;
+    display: block;
+}
+
+
+
 h1{
     -webkit-text-stroke: 2px rgb(255, 255, 255);
 }
@@ -63,7 +84,7 @@ h1{
     align-items: center;
     padding: 20px;
     width: 45%;
-    margin-bottom: 80px;
+    margin-bottom: 200px;
     
 }
 
@@ -177,9 +198,77 @@ ul {
 }
 
 .button-draw img {
-    margin-right: 0px;
+    
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .header-banner {
+    flex-direction: column;
+    padding: 16px 12px 0;
+    gap: 8px;
+  }
+  .button-draw {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 10px 10px;
+    color: var(--color-white);
+    font-size: 16px;
+}
+.button-draw img {
+    
+    max-width: 80%;
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+
+.button-container {
+    width: 300px;
+    display: flex;
+    
+    gap: 8px;
+    justify-content: center;
+}
+
+.bannerTitulo{
+    max-width: 60%;
+    height: auto;
+    display: block;
+}
+
+.bannerMeninoGamer{
+    max-width: 60%;
+    height: auto;
+    display: block;
+}
+
+.participar{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Seção de entrada */
+.input-section {
+    flex: 80% ;
+    background-color: var(--color-secondary);
+    border-radius: 64px 64px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 0px;
+    
+}
+
 }
