@@ -13,12 +13,14 @@
 <body>
     <main class="main-content">
         <header class="header-banner">
-            <h1 class="main-title">Amigo Secreto</h1>
-            <img src="assets/amigo-secreto.png" alt="Imagem representativa de amigo secreto">
+            <!-- <h1 class="main-title"> Gamer Secreto</h1> -->
+            <img src="./assets/amigoGamerSecretoMario.png" width="550" height="auto" >
+            <img src="assets/amigo-secreto.png" width="400" height="auto" alt="Imagem representativa de amigo secreto">
         </header>
         
         <section class="input-section">
-            <h2 class="section-title">Digite o nome dos seus amigos</h2>
+            <h2 class="section-title"></h2>
+            <img src="./assets/participar.png" width="550" height="auto" >
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
                 <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
@@ -28,9 +30,13 @@
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
             <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
-                    Sortear amigo
+
+                <button class="button-draw" onclick="sortearAmigo()">
+                    <img src="assets/play.png"  width="150" height="auto"  alt = "Ícone para sortear">   
+                </button>
+
+                 <button class="button-draw" onclick="resetarLista()">
+                    <img src="./assets/reset.png" width="150" height="auto" alt="Botão Resetar">
                 </button>
             </div>
         </section>

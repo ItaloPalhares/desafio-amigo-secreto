@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #060858;
+    --color-secondary: #eaf3ff;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
     --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-white: #000000;
 }
 
 /* Estilos gerais */
@@ -17,15 +19,22 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(/assets/fundogames.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #5c94fc7c
+    
 }
 
 .main-content {
+    
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 100%;
     width: 100%;
 }
@@ -37,37 +46,49 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+    gap: 8px;
+    
+}
+h1{
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
 }
 
 /* Seção de entrada */
 .input-section {
-    flex: 60%;
+    flex: 80% ;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
-    border-radius: 64px 64px 0 0;
+    border-radius: 64px 64px 64px 64px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    width: 100%;
+    width: 45%;
+    margin-bottom: 80px;
+    
 }
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
-    font-family: "Merriweather", serif;
-    font-weight: 900;
+    font-size: 80px;
     font-style: italic;
     color: var(--color-white);
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
 
 .section-title {
-    font-family: "Inter", serif;
-    font-size: 36px;
-    font-weight: 700;
+
+    font-weight: 400;
     color: var(--color-primary);
     margin: 10px 0;
     text-align: center;
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    
 }
 
 /* Contêineres de entrada e botão */
@@ -89,6 +110,8 @@ body {
 
 .button-container {
     width: 300px;
+    display: flex;
+    gap: 8px;
     justify-content: center;
 }
 
@@ -107,7 +130,7 @@ body {
 /* Estilos de botão */
 button {
     padding: 15px 30px;
-    font-family: "Inter", sans-serif;
+    font-family: "Quantico", sans-serif;
     font-size: 16px;
     border: 2px solid #000;
     border-radius: 25px;
@@ -147,14 +170,14 @@ ul {
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 10px 40px;
+    padding: 10px 10px;
     color: var(--color-white);
-    background-color: var(--color-button);
+    
     font-size: 16px;
 }
 
 .button-draw img {
-    margin-right: 40px;
+    margin-right: 0px;
 }
 
 .button-draw:hover {

@@ -50,3 +50,13 @@ function limparCampo() {
     nomeDoAmigo = document.querySelector('input');
     nomeDoAmigo.value = '';
 }
+//função de ação do botão resetarLista
+function resetarLista(){
+    nomeDoAmigo = document.querySelector('input');
+    nomeDoAmigo.value = '';
+    let listaAmigos = document.getElementById('listaAmigos');
+    listaAmigos.innerHTML = '';
+    document.getElementById('resultado').innerHTML ='';
+    listaDeAmigos.length = 0;
+    
+}
