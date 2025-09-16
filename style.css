@@ -171,11 +171,45 @@ button {
 
 /* Listas */
 ul {
-    list-style-type: none;
+   list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     margin: 20px 0;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    gap: 1px;
+
+}
+
+.name-list{
+    list-style-type:none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    margin: 20px 0;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width:600px;
+    min-width: 300px;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    word-break: break-word;
+    text-align:center;
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+
+    
+}
+
+li {
+    flex: 1 1 auto;  /* faz cada <li> encolher se precisar */
+    max-width: 100%; /* impede que um só <li> ultrapasse o tamanho do pai */
+    box-sizing: border-box;
+    
 }
 
 .result-list {
@@ -209,7 +243,7 @@ ul {
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .header-banner {
     flex-direction: column;
     padding: 16px 12px 0;
